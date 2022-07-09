@@ -10,4 +10,9 @@ public class TestController {
     public String getUP(){
         return "up" ;
     }
+
+    @GetMapping("/down")
+    public String getDown(){
+        return "1" ;
+    }
 }
